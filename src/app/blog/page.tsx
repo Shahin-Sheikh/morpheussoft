@@ -1,5 +1,5 @@
-import { Blog } from "@/components/blog/blog.component";
+import Blog from "@/components/blog/blog.component";
 
-export default function BlogPage() {
+export default function () {
   return <Blog />;
 }
