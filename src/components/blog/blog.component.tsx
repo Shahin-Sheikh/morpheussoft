@@ -14,6 +14,76 @@ export function Blog() {
       <p className="text-lg">We appreciate your support!</p>
       <p className="text-lg">Your feedback is welcome!</p>
       <p className="text-lg">Contact us for inquiries!</p>
+      <div>
+        <p>
+          This is a simple blog page created using React and Next.js. It serves
+          as a placeholder for future blog content. The page is styled using
+          Tailwind CSS for a clean and modern look. The font used is Geist,
+          which provides a sleek and professional appearance. The layout is
+          responsive, ensuring that it looks great on all devices. The blog page
+          will be updated with new content regularly, so be sure to check back
+          often for the latest posts and articles. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Nesciunt atque amet, ducimus voluptatem
+          quibusdam mollitia iste doloribus aliquam exercitationem facere in quo
+          numquam nemo harum eligendi quaerat totam, vero aperiam.
+        </p>
+      </div>
+      <div>
+        <p>
+          This is a simple blog page created using React and Next.js. It serves
+          as a placeholder for future blog content. The page is styled using
+          Tailwind CSS for a clean and modern look. The font used is Geist,
+          which provides a sleek and professional appearance. The layout is
+          responsive, ensuring that it looks great on all devices. The blog page
+          will be updated with new content regularly, so be sure to check back
+          often for the latest posts and articles. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Nesciunt atque amet, ducimus voluptatem
+          quibusdam mollitia iste doloribus aliquam exercitationem facere in quo
+          numquam nemo harum eligendi quaerat totam, vero aperiam.
+        </p>
+      </div>
+      <div>
+        <p>
+          This is a simple blog page created using React and Next.js. It serves
+          as a placeholder for future blog content. The page is styled using
+          Tailwind CSS for a clean and modern look. The font used is Geist,
+          which provides a sleek and professional appearance. The layout is
+          responsive, ensuring that it looks great on all devices. The blog page
+          will be updated with new content regularly, so be sure to check back
+          often for the latest posts and articles. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Nesciunt atque amet, ducimus voluptatem
+          quibusdam mollitia iste doloribus aliquam exercitationem facere in quo
+          numquam nemo harum eligendi quaerat totam, vero aperiam.
+        </p>
+      </div>
+      <div>
+        <p>
+          This is a simple blog page created using React and Next.js. It serves
+          as a placeholder for future blog content. The page is styled using
+          Tailwind CSS for a clean and modern look. The font used is Geist,
+          which provides a sleek and professional appearance. The layout is
+          responsive, ensuring that it looks great on all devices. The blog page
+          will be updated with new content regularly, so be sure to check back
+          often for the latest posts and articles. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Nesciunt atque amet, ducimus voluptatem
+          quibusdam mollitia iste doloribus aliquam exercitationem facere in quo
+          numquam nemo harum eligendi quaerat totam, vero aperiam.
+        </p>
+      </div>
+      <div>
+        <p>
+          This is a simple blog page created using React and Next.js. It serves
+          as a placeholder for future blog content. The page is styled using
+          Tailwind CSS for a clean and modern look. The font used is Geist,
+          which provides a sleek and professional appearance. The layout is
+          responsive, ensuring that it looks great on all devices. The blog page
+          will be updated with new content regularly, so be sure to check back
+          often for the latest posts and articles. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Nesciunt atque amet, ducimus voluptatem
+          quibusdam mollitia iste doloribus aliquam exercitationem facere in quo
+          numquam nemo harum eligendi quaerat totam, vero aperiam.
+        </p>
+      </div>
     </div>
   );
 }
