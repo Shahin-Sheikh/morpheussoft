@@ -103,7 +103,7 @@ export const navbarData: NavbarData = {
     },
     {
       category: "Log in",
-      url: "/login",
+      url: "/auth/login",
       subcategories: [],
     },
   ],
