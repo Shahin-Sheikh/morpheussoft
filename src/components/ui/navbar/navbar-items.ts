@@ -1,7 +1,7 @@
 export interface Subcategory {
   name: string;
   url: string;
-  description: string; // Add description field
+  description: string;
 }
 
 export interface NavbarItem {
@@ -10,8 +10,13 @@ export interface NavbarItem {
   subcategories: Subcategory[];
 }
 
-export const navbarData: { navbarItems: NavbarItem[] } = {
-  navbarItems: [
+export interface NavbarData {
+  leftItems: NavbarItem[];
+  rightItems: NavbarItem[];
+}
+
+export const navbarData: NavbarData = {
+  leftItems: [
     {
       category: "Home",
       url: "/",
@@ -23,9 +28,29 @@ export const navbarData: { navbarItems: NavbarItem[] } = {
       subcategories: [],
     },
     {
-      category: "Product",
-      url: "/product",
+      category: "Pricing",
+      url: "/pricing",
+      subcategories: [],
+    },
+    {
+      category: "Services",
+      url: "/services",
       subcategories: [
+        {
+          name: "Editor",
+          url: "/product/editor",
+          description: "Build and customize your app with a visual editor.",
+        },
+        {
+          name: "Hosting",
+          url: "/product/hosting",
+          description: "Reliable and scalable hosting for your applications.",
+        },
+        {
+          name: "Templates",
+          url: "/product/templates",
+          description: "Kickstart your project with pre-built templates.",
+        },
         {
           name: "Editor",
           url: "/product/editor",
@@ -44,13 +69,8 @@ export const navbarData: { navbarItems: NavbarItem[] } = {
       ],
     },
     {
-      category: "Pricing",
-      url: "/pricing",
-      subcategories: [],
-    },
-    {
-      category: "Learn",
-      url: "/learn",
+      category: "Projects",
+      url: "/projects",
       subcategories: [
         {
           name: "Tutorials",
@@ -69,9 +89,16 @@ export const navbarData: { navbarItems: NavbarItem[] } = {
         },
       ],
     },
+  ],
+  rightItems: [
     {
-      category: "Customers",
-      url: "/customers",
+      category: "About Us",
+      url: "/about",
+      subcategories: [],
+    },
+    {
+      category: "Careers",
+      url: "/careers",
       subcategories: [],
     },
     {
