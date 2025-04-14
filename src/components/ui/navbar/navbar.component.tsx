@@ -173,11 +173,11 @@ const Navbar = () => {
         <div className="flex items-center gap-12">
           <Link href="/" onClick={() => setOpenDropdown(null)}>
             <Image
-              src="https://49291ba917ced6f25ff01e5cc5b9a691.cdn.bubble.io/f1733171248210x470847139026376450/Bubble_Light.svg"
+              src="/Morpheussoft-Logo.svg"
               alt="Bubble.io Logo"
-              width={50}
-              height={20}
-              className="h-5 w-auto"
+              width={100}
+              height={80}
+              className="h-12 w-auto"
               priority
             />
           </Link>
